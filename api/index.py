@@ -13,7 +13,6 @@ def home():
 def about():
     return 'About'
 
-app = Flask(__name__)
 
 @app.route('/api', methods=['GET'])
 def read_root():
